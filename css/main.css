@@ -14,13 +14,15 @@ body {
 
 .main img {
     margin-top: 260px;
-    width: 454px;
+    /*width: 454px;*/
+    width: 908px;
     margin-bottom: 10px;
 }
 
 .main p, .main a {
     font-family: HelveticaNeue;
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: 26px;
     color: #727272;
     text-decoration: none;
     margin: 50px auto;

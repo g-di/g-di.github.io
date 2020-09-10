@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/gilroy-regular.otf');
+}
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('../font/gilroy-bold.otf');
+}
+
 * {
     box-sizing: border-box;
     font-family: Gilroy;
@@ -15,13 +25,14 @@ body {
 }
 
 .main img {
-    margin-top: 260px;
-    /*width: 454px;*/
-    width: 908px;
-    margin-bottom: 10px;
+    margin-top: 220px;
+    width: 454px;
+    /*width: 908px;*/
+    /*margin-bottom: 10px;*/
 }
 
 .title {
+    font-family: GilroyBold;
     font-weight: bold;
     color: #424242;
     font-size: 36px;

@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Gilroy;
 }
 
 html, body {
@@ -8,7 +9,8 @@ html, body {
 }
 
 body {
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
+    background-color: #ffffff;
     text-align: center;
 }
 
@@ -19,16 +21,41 @@ body {
     margin-bottom: 10px;
 }
 
-.main p, .main a {
-    font-family: HelveticaNeue;
-    /*font-size: 16px;*/
-    font-size: 26px;
-    color: #727272;
+.title {
+    font-weight: bold;
+    color: #424242;
+    font-size: 36px;
+    margin: 40px auto;
+}
+
+.email {
+    width: 300px;
+    height: 54px;
+    line-height: 50px;
+    border: 2px solid #87B2FF;
+    border-radius: 27px;
+    margin: 40px auto 0;
+}
+
+.main a {
+    font-size: 22px;
+    color: #87B2FF;
     text-decoration: none;
-    margin: 50px auto;
 }
 
 .main a:hover, .main a:focus {
-    color: #727272;
+    color: #87B2FF;
     text-decoration: none;
+}
+
+.brief {
+    font-size: 12px;
+    color: #8e8e8e;
+    display: block;
+    position: absolute;
+    bottom: 88px;
+    margin: auto;
+    width: 760px;
+    left: 0;
+    right: 0;
 }

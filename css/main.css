@@ -24,11 +24,16 @@ body {
     text-align: center;
 }
 
+.main {
+    font-size: 0px;
+}
+
 .main img {
-    margin-top: 220px;
+    margin-top: 168px;
     width: 454px;
     /*width: 908px;*/
     /*margin-bottom: 10px;*/
+    font-size: 0;
 }
 
 .title {
@@ -36,7 +41,7 @@ body {
     font-weight: bold;
     color: #424242;
     font-size: 36px;
-    margin: 40px auto;
+    margin: 30px auto 40px;
 }
 
 .email {
@@ -61,6 +66,7 @@ body {
 
 .brief {
     font-size: 12px;
+    font-style: italic;
     color: #8e8e8e;
     display: block;
     position: absolute;
